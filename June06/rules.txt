@@ -1,0 +1,23 @@
+interface: similar to class..
+* can not be instantiated..
+*ERROR: can not create reference variable..
+* method can not have body..
+* data memebers bana sakte hain..
+* 
+========================
+PACKAGES:
+1.
+first line should be : name of package of which the class would be member
+EG: package girnarPack;
+2. now compile.
+3. create a folder with same name as that of Package..
+4. cut/copy the .class file into that folder..
+5. create a SYSTEM VARIABLE : CLASSPATH and set it with that folder path..
+
+HOW TO ACCESS THAT PACKAGE CLASS..
+6. that class must be imported into our program.
+	first line should be:
+	import packagename;
+
+
+

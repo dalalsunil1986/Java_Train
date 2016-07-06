@@ -1,0 +1,15 @@
+EXCEPTION: a runtime error..
+
+
+OBJECT
+  |
+THROWABLE
+ |         |
+ERROR    EXCEPTIONs
+         |        |
+	CHECKED   UN-CHECKED
+
+
+try, catch, throw, throws, finally
+
+JVM -> EXCEPTION OBJECT will be created -> THROWN -> HANDLER will catch and Handle and program will keep on running.. IF THERE IS NO HANDLER then main thread will catch and throw out the program from JVM and print the stack trace on console..

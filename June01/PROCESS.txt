@@ -1,0 +1,20 @@
+kuchbhi.c OBJECT_CODE (Platform Dependent, Arch Dependent) 
+
+SOURCECODE -> [COMPILER] OBJECT_CODE -> LINKER(Libraries) -> .exe
+
+kuchbhi.java -> [javac] -> kuchbhi.class[BYTE code] -> JVM/JRE
+
+BYTE CODE: Plateform/Arch neutral
+	: javac, jvm, jre [Platform DEPENDENT]
+
+JRE:
+	1. LOADER  : it will load the byte code into jre
+	2. VERIFIER : algo: it will verify the byte code..
+	3. JIT
+=======================
+CLASS : a class is a BLUE PRINT of the proposed OBJECT.
+OBJECT is real world entity of the class..
+OBJECT is INSTANCE of the class..
+
+By default, Local variables are not INITIALIZED in java..
+Instance Variable are automatically initialized with their default values..

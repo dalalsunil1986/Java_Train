@@ -1,0 +1,4 @@
+11, 12, 1 : WINTER
+2, 3, 4: AUTUMN
+5, 6, 7 : SUMMER
+8, 9, 10: SPRING
